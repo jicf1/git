@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.downloadbanner{ height:380px; width:100%; background: url(../imges/banner4-4.jpg) no-repeat center; background-size:cover;}
+.downloadbanner p{font-size:32px; color:#333333; font-family:微软雅黑; line-height:64px; padding-top:130px; margin-right:280px; text-align:right;}
+.buybanner{ height:380px; width:100%; background:url(../imges/banner4-1.jpg) no-repeat center; background-size:cover;}
+.buybanner p{font-size:32px; color:#666666; font-family:微软雅黑; line-height:64px; padding-top:130px;  margin-left:240px;}
+.updatebanner{ height:380px; width:100%; background:url(../imges/banner4-2.jpg) no-repeat center; background-size:cover;}
+.updatebanner p{font-size:32px; color:#090B2F; font-family:微软雅黑; line-height:64px; padding-top:170px;  margin-left:240px;}
+.videobanner{   height:90px;}
+
+
+
+.update{ width:100%; background:#ffffff; }
+.update-wrapper{ width:1200px; margin:auto; padding-top:50px; padding-bottom:50px;}
+.update-title p{ font-size:24px; color:#333333; font-family:微软雅黑; padding-left:10px; border-left:4px solid #ff8f0b; }
+
+.rizhi-bg2{ padding-top:50px;}
+.rizhi-bg2 h3{ font-size:24px;text-align:left; font-weight: normal; color: #00a3f6; font-family:'fz','microsoft yahei'; padding-bottom:20px;}
+
+.rizhi-bg .wrapper{ padding-top: 60px; width: 1000px;}
+.rizhi-bg p{ color:#777;font-size:17px;text-align:left;line-height: 1.8; margin-top: 40px;}
+.pblue{ color:#256ea3 !important;}
+
+.rizhi-list{ text-align:left; /* padding: 40px 0; */}
+.rizhi-list dl{font-family:微软雅黑; font-size:25px;margin-left:100px;padding-left:46px;color:#858585; margin-right: 45px;}
+.rizhi-list dt{ color:#333; position: relative; line-height: 2.3; font-size: 24px; border-bottom:1px solid #d2d2d2;}
+.rizhi-list dd{ padding:30px 0; line-height: 1.6; font-size: 14px;}
+.rizhi-list .dl-first{ padding-top: 10px;}
+
+.tutorial{ width:100%; background:#ffffff; }
+.tutorial-wrapper{ width:1200px; margin:auto; padding-top:50px; padding-bottom:50px;}
+.tutorial-title p{ font-size:24px; color:#333333; font-family:微软雅黑; padding-left:10px; border-left:4px solid #ff8f0b; }
+
+
+.contactus-wrapper{ padding-top: 50px; width: 1000px; margin:auto;}
+.contactus-sev{ height:1500px;}
+.contactus-copyright{height:1200px;}
+.contactus-contactus{height:1300px;}
+.contactus-pri{ height:600px;}
+.contactus-aboutus{height:2800px;}
+.contactus-join{ height:900px;}
+
+
+.sidebar { width:240px;}
+
+.side-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #ededed;
+  margin-bottom: 20px;
+}
+
+.side-nav li a {font-family:Microsoft YaHei; text-decoration:none; border-right:1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: block;
+  height: auto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height:26px;
+  color: #333333;padding: 8px 0
+}
+
+.side-nav li a:hover {
+ color:#078be4; border-right:8px solid #ededed;
+}
+.contactus-con{ width:700px; margin-left:320px;}
+.joinus{ width:660px; margin:auto;}
+.joinus-con{ padding-top:30px;}
+.joinus-t{font-family:Microsoft YaHei; font-size:20px; color:#000000; padding-bottom:6px;}
+.joinus-p{font-family:Microsoft YaHei; font-size:14px; color:#666666; line-height:28px; padding-bottom:10px;border-bottom:1px solid #d2d2d2}
+
+
+
+ .bt5 {
+            font-size: 18px;
+            color: #f16905;
+            line-height: 45px;
+            margin: 10px 10px 0 0;font-family:Microsoft YaHei;
+        }
+
+.basicsvideo{ width:100%; height:1600px;}
+.basicsvideo ul li{ width:374px; margin-right:28px;height:360px; float:left; border:1px solid #d2d2d2; margin-bottom:60px; }
+.basicsvideo ul li a{text-decoration:none;}
+.span-img{background: url(../imges/playbg.jpg) no-repeat center; height:240px;display:flex;
+             justify-content:center;
+             align-items:center;}
+.basicsvideo p{font-family:Microsoft YaHei; font-size:18px; color:#666666; line-height:36px; padding-top:20px; padding-left:10px;}
+.ico-video{ background:url(../imges/play.png) center no-repeat; width:88px; height:88px;}
+.ico-video:hover{background: url(../imges/play-h.png) center no-repeat;}
+.teamvideo{ width:100%; height:410px;}
+.teamvideo ul li{ width:374px; margin-right:28px;height:360px; float:left; border:1px solid #d2d2d2;}
+.teamvideo ul li a{text-decoration:none;}
+.teamvideo p{font-family:Microsoft YaHei; font-size:18px; color:#666666; line-height:36px; padding-top:20px; padding-left:10px;}
+.callvideo{ width:100%; height:400px;}
+.callvideo ul li{ width:374px; margin-right:28px;height:360px; float:left; border:1px solid #d2d2d2; margin-bottom:60px; }
+.callvideo ul li a{text-decoration:none;}
+.callvideo p{font-family:Microsoft YaHei; font-size:18px; color:#666666; line-height:36px; padding-top:20px; padding-left:10px;}
+ 
+.implication-p{font-size:16px; color:#666666; font-family:Microsoft YaHei; line-height:32px; padding-top:30px; text-align:justify; text-indent: 2em;}
+
+.serve-t, .aboutus-contactus-t, .aboutus-aboutus-t{font-size:20px; color:#333333; font-family:Microsoft YaHei; line-height:40px; padding-top:20px; border-bottom:1px solid #d2d2d2}
+.serve-p, .aboutus-contactus-add, .aboutus-aboutus-p{font-size:16px; color:#666666; font-family:Microsoft YaHei; line-height:32px; padding:10px 0;text-align:justify;}
+.serve-p li{ padding:7px 0}
+
+
+.aboutus-contactus-p{height:80px;padding-left:40px; line-height:80px;font-size:18px; color:#666666; font-family:Microsoft YaHei;}
+.aboutus-contactus-p a { text-decoration:none;font-size:14px;text-align:center; line-height:40px;border-radius:30px; color:#ff8f0b; border:1px solid #ff8f0b;font-family:Microsoft YaHei; padding:5px 10px;}
+
+.aboutus-aboutus-character{font-family:Microsoft YaHei; font-size:16px; color:#666666; text-align:center; padding:20px 0; line-height:30px;}
+
+
+.contactus{ width:800px; margin:auto; height:900px;}
+.l-contactus{ width:344px; padding-top:30px; height:270px; float:left;}
+.contactus-t{padding-left:44px; width:300px;}
+.contactus-t p{font-size:18px; color:#666666; font-family:Microsoft YaHei; line-height:28px;border-bottom:1px solid #d2d2d2}
+.r-contactus{ width:344px; padding-top:30px; height:270px; float:right;}
+.contactus-codes{ width:456px; height:270px;   float:right;  padding-top:30px;}
+.contactus-weichat{ width:245px; float:left; padding-left:30px;}
+.contactus-weichat p, .contactus-weibo p{font-size:18px; color:#666666; font-family:Microsoft YaHei; line-height:28px;border-bottom:1px solid #d2d2d2; width:150px; text-align:center; margin:auto;}
+.contactus-weibo{width:150px; float:left;padding-left:30px;}
+
+.quetion{ width: 800px; margin: auto;}
+.quetion-t p{font-size:20px; color:#666666; font-family:微软雅黑;padding-bottom: 3px; margin-top: 30px; border-bottom: 1px solid #d2d2d2;}
+
+
+
+
+
+.goumaiMain{ width:1000px;   padding-top:20px; margin:auto; margin-bottom:80px;}
+.goumaiMain table{ font-size:16px;color:#8e8e8e;font-family:微软雅黑;}
+.goumaiMain a{ text-decoration:none; color:#078be4;}
+.goumaiMain table tr td,.goumaiMain table tr th{ border-bottom:1px solid #ddd; padding:16px;}
+.goumaiMain table tr td{ text-align:center;}
+.goumaiMain table th{ font-weight:normal; color:#333333;}
+.accretion{width:800px; margin:0 0 80px 100px}
+.accretion table{ font-size:16px;color:#666666;font-family:微软雅黑;}
+.accretion a{ text-decoration:none; color:#078be4;}
+.accretion table tr td,.goumaiMain table tr th{ border-bottom:1px solid #ddd; padding:16px;}
+.trbg{background-color: #E9E9E9;}
+
+.pricequestion{ width:760px; margin-left:150px;}
+
+.pricing_table .items{text-align:right; margin:0; }
+	.pricing_table .items li{border-bottom:1px solid #ffffff;  width:230px; padding-right:50px; background:#eaeaea; }
+	.pricing_table .items li:first-child { background:none;}
+
+.pricing_table {line-height:40px; height:750px; margin: 30px auto 80px auto; width:950px;font-family:微软雅黑; font-size:14px; color:#666666;}
+.pricing_table ul { list-style:none; float:left;width:300px; margin:0;padding:5px;text-align:center;background-color:#FFF;}
+
+.pricing_table ul li {border-bottom:1px solid #eaeaea;}
+.pricing_table ul li:first-child {font-size:16px; background:#eaeaea; border-top-left-radius:10px; border-top-right-radius:10px;}

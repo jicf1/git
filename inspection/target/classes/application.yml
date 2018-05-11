@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  context-path: /inspection/
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/inspection?characterEncoding=utf8&useSSL=true&allowMultiQueries=true
+      username: root
+      password: root
+  # 设置jpa的自动生成表功能，框架中的实体将自动生成在数据库，不需要的时候可关闭
+  jpa:
+    generate-ddl: true
+  # 修改为jsp  
+  freemarker:
+    cache: false
+    enabled: false
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/view/
+#扫描框架包内mybatis的mapper文件，数据库类型看具体使用的数据库，mysql或oracle，必须设置
+mybatis:
+  mapper-locations:
+  - classpath:rbac/mysql/**Mapper.xml
+  - classpath:mapping/**Mapper.xml
+proem:
+  log: D:/logs

@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.clear-both{
+	clear: both;
+}
+.overflow-hidden{
+	overflow: hidden;
+}
+.margin-0{
+	margin: 0;
+}
+.red{
+	color: red;
+}
+
+.font-size-14{
+	font-size: 14px;
+}

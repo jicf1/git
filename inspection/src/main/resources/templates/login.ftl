@@ -43,7 +43,7 @@
                     <div class="login-logo" style="border-bottom:1px solid #037dc6;margin-bottom:0px;">
                         <label style="font-size: 24px!important;font-family:SimHei;">登录</label>
                     </div>
-                    <form>
+                    <form action="${ctx.contextPath}/login" method="post">
                         <span class="help-block" style="color:#dd4b39;text-align:center;height:10px;"><small v-show="isShow"><i class="fa fa-times-circle-o"></i>用户名或密码错误</small></span>
                         <div class="form-group has-feedback"  v-bind:class="{'has-error': errors.has('loginname')}">
                                 <input type="text" v-validate="'required'" id='loginname' name='loginname' class="form-control" v-model="username" placeholder="用户名">
@@ -59,7 +59,7 @@
                         </div>
                         <div class="row" style="margin-top:10px;">
                             <div class="col-xs-12">
-                                <a v-on:click='login' id="login_btn" class="btn btn-primary btn-block btn-flat btn-login">登录</a>
+                                <input type="submit" class="btn btn-primary btn-block btn-flat btn-login" value="登录"/>
                             </div>
                         </div>
                         <!-- <div class="row" style="margin-top:10px;">
@@ -95,48 +95,6 @@
 
 <script>
     $(function(){  
-    	$('input[placeholder]').placeholder();
-        Vue.use(VeeValidate);
-        var login = new Vue({
-            el: '#login',
-            data: {
-                username: '',
-                password: '',
-                isShow: false
-            },
-            created: function(){
-                $('body').show();
-            },
-            methods: {
-                login: function(){
-                	var self = this;
-                    this.$validator.validateAll().then(function (result) {
-                       if (result) {
-                       			$ajax.post({
-									url: "/platform/user/login", 
-									data: {
-										loginName : self.username,
-										loginPwd : MD5(self.password),
-									},
-									success: function(resp) {
-										if (resp.success) {
-											 login.isShow = false;
-											 window.location.href = $root() + "/index";
-										} else {
-											login.isShow = true;
-										}
-									},
-									error: function(ex) {
-										layer.alert("请求失败");
-									}
-								});
-                       }
-                    });
-                }
-            }
-            
-        });
-
         
     })
 </script>

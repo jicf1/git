@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proem.inspection.sys.mapper.UserMapper">
+    
+	<resultMap type="cn.proem.framework.rbac.entity.User" id="user">  
+        <id property="username" column="username"/> 
+         
+        <result property="createTime" column="create_time"/>  
+        <result property="updateTime" column="update_time"/>  
+        <result property="createId" column="create_id"/>  
+        <result property="updateId" column="update_id"/>
+        <result property="delFlag" column="del_flag"/>  
+        
+        <result property="name" column="name"/>  
+        <result property="password" column="password"/>  
+        <result property="gender" column="gender"/>  
+        <result property="email" column="email"/>  
+        <result property="phone" column="phone"/>  
+        <result property="tel" column="tel"/>  
+        <result property="state" column="state"/>  
+        <result property="photo" column="photo"/>  
+        <result property="type" column="type"/>  
+        <result property="userResource" column="user_resource"/>  
+        <result property="sort" column="sort"/>
+    </resultMap>
+    
+	<sql id="user_column_list">
+    	create_time, del_flag,
+    	username, name, password, gender, email, phone, tel, state, type, user_resource, sort, photo
+    </sql>
+    <select id="findUserByName" resultType="cn.proem.framework.rbac.entity.User">
+    		SELECT 
+			<include refid="user_column_list"/>
+		FROM ADMIN_USER where username=#{username}
+    </select>
+</mapper>

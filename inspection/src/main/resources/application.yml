@@ -11,7 +11,7 @@ spring:
   # 设置jpa的自动生成表功能，框架中的实体将自动生成在数据库，不需要的时候可关闭
   jpa:
     generate-ddl: true
-  # 修改为jsp  
+  # 修改为jsp  取消freemark引擎
   freemarker:
     cache: false
     enabled: false

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 server:
   port: 8080
   context-path: /inspection/
@@ -46,4 +45,3 @@ mybatis:
   - classpath:mapping/**Mapper.xml
 proem:
   log: D:/logs
->>>>>>> bc263616c4788798838eaa23bb8eda5851545e9b
